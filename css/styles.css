@@ -35,6 +35,15 @@ footer {
     padding: 0 35px;
     color: black; }
 
+.titulo-original, .titulo-copia {
+  font-family: Spartan;
+  font-size: 3rem;
+  text-align: center;
+  background-color: lightgray; }
+
+.titulo-copia {
+  background-color: lightgreen; }
+
 /*MEDIA CELULAR*/
 @media only screen and (max-width: 380px) {
   iframe {
