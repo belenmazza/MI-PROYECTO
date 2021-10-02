@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Montserrat, sans-serif;
+  overflow-x: hidden; }
+
+/*ENCABEZADO*/
+header .numero-header {
+  font-family: Spartan; }
+
+.contacto-header {
+  background-color: #D7E7BD; }
+
+nav .barra-movimiento:hover {
+  color: black;
+  background-color: #928c6f; }
+
+nav .letra-holder {
+  font-family: Montserrat; }
+
+#menu {
+  background-color: #D7E7BD; }
+  #menu a {
+    font-size: 1.5rem;
+    font-family: Spartan;
+    color: black; }
+
+/*FIN ENCABEZADO*/
+footer {
+  background-color: #928c6f; }
+  footer .iconos i {
+    font-size: 3rem;
+    padding: 0 35px;
+    color: black; }
+
+/*MEDIA CELULAR*/
+@media only screen and (max-width: 380px) {
+  iframe {
+    width: 100%; }
+  .sobreMi {
+    width: 70%;
+    height: 100%; }
+  .pedido-antici {
+    font-size: 1rem; }
+  .fotos-tablet {
+    display: none; } }
+
+/*MEDIA TABLET*/
+@media only screen and (max-width: 768px) {
+  iframe {
+    width: 100%; } }
+
+div .mi-emprendimiento {
+  font-family: Montserrat; }
+
+div h1 {
+  font-family: Spartan;
+  font-size: 3rem;
+  text-align: center;
+  transition: height 2s; }
+
+div .carousel-inner {
+  max-height: 50rem; }
+
+section .pedido-antici {
+  font-family: roboto;
+  font-size: 1.3rem;
+  font-weight: bold; }
+
+section h2 {
+  background-color: #edeba0;
+  font-family: roboto;
+  font-weight: bold; }
+
+.biografia-pilar {
+  font-family: Spartan;
+  font-weight: bold; }
+
+section .pedidos {
+  padding: 30px 0px; }
+
+section h1 {
+  font-size: 150%;
+  background-color: #d3fad6;
+  padding: 10px;
+  font-weight: bold; }
+
+div .card {
+  margin: 20px 10px;
+  transition: all 0.25s; }
+
+div .card-text {
+  font-family: Spartan;
+  font-weight: bold; }
+
+h4 {
+  font-family: Roboto;
+  font-weight: bold;
+  text-decoration: underline; }
+
+/*galeria*/
+div #colordeBoton {
+  background-color: #d3fad6;
+  font-family: Montserrat; }
+
+div .hablaConmigo {
+  background-color: #d3fad6;
+  font-family: Montserrat; }
+
+div h3 {
+  font-family: Roboto;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1rem; }
+
+div .letra-holder {
+  font-family: Montserrat; }
