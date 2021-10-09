@@ -33,7 +33,18 @@ footer {
   footer .iconos i {
     font-size: 3rem;
     padding: 0 35px;
-    color: black; }
+    color: black;
+    text-decoration: none; }
+
+.titulos, .titulo1, .titulo2 {
+  font-family: roboto;
+  font-weight: bold; }
+
+.titulo1 {
+  background-color: #edeba0; }
+
+.titulo2 {
+  background-color: #E8F7D9; }
 
 /*MEDIA CELULAR*/
 @media only screen and (max-width: 380px) {
