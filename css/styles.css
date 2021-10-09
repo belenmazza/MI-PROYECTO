@@ -49,12 +49,19 @@ footer {
   iframe {
     width: 100%; }
   .sobreMi {
-    width: 70%;
+    width: 110%;
     height: 100%; }
   .pedido-antici {
     font-size: 1rem; }
   .fotos-tablet {
-    display: none; } }
+    display: none; }
+  .foto-oreo {
+    width: 80%;
+    height: 170%; }
+  .grid-responsive {
+    width: 100%; }
+  .fechas-celular {
+    font-size: 5%; } }
 
 /*MEDIA TABLET*/
 @media only screen and (max-width: 768px) {
@@ -83,9 +90,49 @@ section h2 {
   font-family: roboto;
   font-weight: bold; }
 
+.novedades {
+  background-color: #D3F0B9;
+  font-size: 200%; }
+
+.f-especiales {
+  font-weight: bolder;
+  font-family: Spartan;
+  background-color: #D0E4BE; }
+
+.news {
+  font-family: Spartan;
+  text-align: center;
+  font-size: 150%; }
+
+.fechas-importantes {
+  font-family: Roboto;
+  font-size: 300%;
+  text-align: center; }
+
+.color-filas {
+  background-color: #D0EAB8;
+  font-family: Roboto;
+  font-size: 150%;
+  font-weight: bolder; }
+
 .biografia-pilar {
   font-family: Spartan;
   font-weight: bold; }
+
+.oreo-titulo {
+  background-color: #E8F7D9;
+  font-family: Spartan;
+  text-align: center;
+  font-size: 30px; }
+
+.receta {
+  background-color: #E1F4CF;
+  font-family: Roboto;
+  font-size: 120%;
+  font-weight: bolder; }
+
+.titulo-receta {
+  font-size: 120%; }
 
 section .pedidos {
   padding: 30px 0px; }
@@ -110,6 +157,17 @@ h4 {
   text-decoration: underline; }
 
 /*galeria*/
+#galeria .col-lg-4 {
+  margin: 0;
+  padding: 25px; }
+
+#galeria img {
+  width: 100%;
+  height: 350px; }
+
+#galeria img:hover {
+  border: 5px solid #928c6f; }
+
 div #colordeBoton {
   background-color: #d3fad6;
   font-family: Montserrat; }
@@ -126,3 +184,10 @@ div h3 {
 
 div .letra-holder {
   font-family: Montserrat; }
+
+#contacto {
+  background-color: #D0EAB8;
+  font-family: Spartan; }
+
+ul li {
+  list-style: none; }

@@ -65,7 +65,7 @@ footer{
 @media only screen and (max-width: 380px) {
     iframe{ width: 100%;}
     .sobreMi{
-        width: 70%;
+        width: 110%;
         height: 100%;
     }
     .pedido-antici{
@@ -73,6 +73,16 @@ footer{
     }
     .fotos-tablet{
         display: none;
+    }
+    .foto-oreo{
+        width: 80%;
+        height: 170%;
+    }
+    .grid-responsive{
+        width: 100%;
+    }
+    .fechas-celular{
+        font-size: 5%;
     }
 }
 /*MEDIA TABLET*/
