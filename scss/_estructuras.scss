@@ -20,8 +20,6 @@ header {
 .contacto-header{
     background-color: $colorNav ;
 }
-    
-
 nav{
     .barra-movimiento:hover{
         color: black;
@@ -50,17 +48,6 @@ footer{
     }
 }
 
-.titulo-original{
-    font-family:Spartan;
-    font-size: 3rem;
-    text-align: center;
-    background-color: lightgray;
-}
-
-.titulo-copia{
-    @extend .titulo-original;
-        background-color: lightgreen;
-}
 /*MEDIA CELULAR*/
 @media only screen and (max-width: 380px) {
     iframe{ width: 100%;}

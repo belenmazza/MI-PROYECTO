@@ -35,15 +35,6 @@ footer {
     padding: 0 35px;
     color: black; }
 
-.titulo-original, .titulo-copia {
-  font-family: Spartan;
-  font-size: 3rem;
-  text-align: center;
-  background-color: lightgray; }
-
-.titulo-copia {
-  background-color: lightgreen; }
-
 /*MEDIA CELULAR*/
 @media only screen and (max-width: 380px) {
   iframe {
@@ -115,7 +106,7 @@ section h2 {
   font-size: 150%;
   font-weight: bolder; }
 
-.biografia-pilar {
+section .biografia-pilar {
   font-family: Spartan;
   font-weight: bold; }
 
@@ -185,9 +176,9 @@ div h3 {
 div .letra-holder {
   font-family: Montserrat; }
 
+section ul li {
+  list-style: none; }
+
 #contacto {
   background-color: #D0EAB8;
   font-family: Spartan; }
-
-ul li {
-  list-style: none; }
